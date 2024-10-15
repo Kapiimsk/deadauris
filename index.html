@@ -195,6 +195,14 @@
                         text: "Pactos NÃO são legais.",
                     });
                     return;
+                    case "Secret":
+Swal.fire({
+  icon: "error",
+  title: "Oops...",
+  text: "Something went wrong!",
+  footer: '<a href="https://mail.google.com/mail/?view=cm&fs=1&to=exemplo@gmail.com&su=Olá&body=Esta%20é%20uma%20mensagem%20de%20teste">????</a>'
+});
+return;
                 case "Promessa":
                     urlArquivo = 'https://youtu.be/oB-1ndlhFIk?si=pgDCfJ9jSs3ekG45';
                     break;
