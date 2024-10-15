@@ -237,6 +237,14 @@
                 case "Guia":
                     urlArquivo = 'https://www.mediafire.com/file/glorzxi2nf7bv9r/O_guia_sobre_Dealer.pdf/file';
                     break;
+                case "Secret":
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Algo deu errado!",
+                        footer: '<a href="https://mail.google.com/mail/?view=cm&fs=1&to=exemplo@gmail.com&su=Olá&body=Esta%20é%20uma%20mensagem%20de%20teste">????</a>'
+                    });
+                    return;
                 default:
                     alert("Mensagem inválida! Tente novamente.");
                     return;
@@ -251,5 +259,6 @@
         }
     </script>
 </body>
+</html>
 </html>
 
